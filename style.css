@@ -1,0 +1,184 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    margin: auto;
+    width: 75%;
+}
+ul > li {
+    padding-left: 1rem;
+    display: inline-block;
+}
+#iii {
+    display: none;
+    font-size: 1.5rem;
+}
+header {
+    background-color: rgb(243, 243, 243);
+}
+nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+h2, ul {
+    display: inline-block;
+}
+ul {
+    text-align: right;
+    width: 75%;
+}
+h2 {
+    padding-left: 1rem;
+    color: brown;
+}
+.first-section > a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5rem;
+    background-color: brown;
+    border: solid 1px brown;
+    padding: 0.4rem 3rem;
+}
+.first-section {
+    background-color: rgb(243, 243, 243);
+    height: 28rem;;
+}
+.first-section > img {
+    float: right;
+}
+.first-section > h1 {
+    margin: 0;
+    text-align: center;
+    display: block;
+    width: 45%;
+}
+.first-section > p {
+    padding-left: 5rem;
+    width: 50%;
+    text-align: left;
+}
+.middle {
+    text-align: center;
+    height: 10rem;
+}
+.middle > h3 {
+    margin: 0;
+    padding-top: 2rem;
+}
+.last-section {
+    display: inline-block;
+    height: 28rem;
+    width: 40%;
+    text-align: left;
+    background-color: rgb(243, 243, 243);
+}
+label {
+    display: inline-block
+}
+#last{
+    background-color: rgb(243, 243, 243);
+}
+.namename {
+    width: 100%;
+}
+#name {
+    margin-bottom: 1rem;
+    width: 30%;
+    border-radius: 8px;
+    border: solid gray 1px;
+    padding: 0.8rem;
+}
+#email {
+    margin-bottom: 1rem;
+    width: 95%;
+    border-radius: 8px;
+    border: solid gray 1px;
+    padding: 0.8rem;
+}
+#subject {
+    margin-bottom: 1rem;
+    width: 95%;
+    border-radius: 8px;
+    border: solid gray 1px;
+    padding: 0.8rem;
+}
+aside {
+    height: 28rem;
+    background-color: rgb(243, 243, 243);
+    padding-left: 10rem;
+    display: inline-block;
+    margin: 0;
+    width: 40%;
+    text-align: left;
+}
+button {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5rem;
+    background-color: gray;
+    border: solid 1px gray;
+    padding: 0.4rem 3rem;
+}
+footer {
+    padding: 2rem 0;
+    color: gray;
+    text-align: center;
+    background-color: brown;
+}
+
+@media screen and (max-width: 1024px) {
+    nav ul {
+        display: none;
+        margin: 0;
+    }
+    #iii {
+        color: brown;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        float: right;
+        display: initial;
+      
+    }
+    #container {
+        width: 100%
+    }
+    .first-section {
+        text-align: center;
+        height: 600px;
+    }
+    .first-section > h1 {
+        margin: auto;
+    }
+    .first-section >  p {
+        margin: auto;
+        width: 85%;
+        padding: 0;
+        text-align: center;
+    }
+    img {
+        padding-top: 3rem;
+        padding-right: 3rem;
+    }
+    .middle {
+        text-align: center;
+    }
+    .last-section {
+        width: 100%;
+    }
+    #name, #email, #subject, #message {
+        width: 92%;
+    }
+    button {
+        margin-left: 5.6rem;
+        margin-bottom: 1rem;
+    }
+    aside {
+        margin-top: 1rem;
+        text-align: center;
+        padding: 0;
+        width: 99%;
+    }
+    
+}
